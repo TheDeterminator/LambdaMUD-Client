@@ -195,6 +195,25 @@ button {
   margin-bottom: 20px;
 }
 
+.login-button-red {
+  color: red;
+  font-size: 36px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  text-shadow: 1px 1px goldenrod;
+  width: 250px;
+  background: black;
+  padding-top: 10px;
+}
+
+.login-button-red:hover {
+  color: goldenrod;
+  text-shadow: 1px 1px red;
+}
+
 .login-page {
   padding-top: 2%;
 }

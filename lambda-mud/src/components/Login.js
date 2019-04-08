@@ -46,6 +46,7 @@ class Login extends React.Component {
             {this.state.unAuthenticated ? <p className="wrong-password">Whoops, wrong username or password, try again</p>: null}
             </form>
             <NavLink to='/register' className="goto-signup">Need an account? Click here to sign up</NavLink>
+            <a className="login-button-red" href="https://youtu.be/d2wGptKFMsw?t=230" target="_blank" rel="noopener noreferrer">Video Demo</a>
           </div>
         );
       }
